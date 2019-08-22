@@ -1,0 +1,11 @@
+TOSCA-Meta-File-Version: 1.0
+CSAR-Version: 1.1
+
+Entry-Definitions: definitions/service.yaml
+
+name: VDOC validated tosca - Openstack deployment demo
+vendor: NetCracker
+version: 0.0.1
+vnf_type: L3 VPN Services
+hypervisors: [OpenStack]
+tags: [ Router, NFV, Cisco, Infrastructure ]

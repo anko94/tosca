@@ -1,0 +1,12 @@
+vl12:
+  name: vl12-net
+  cidr: 192.168.1.0/24
+  gateway: 192.168.1.254
+ubuntu1:
+  name: ubuntu1
+  cidr: 192.168.1.1
+  gateway: 192.168.1.254
+ubuntu2:
+  name: ubuntu2
+  cidr: 192.168.1.2
+  gateway: 192.168.1.254

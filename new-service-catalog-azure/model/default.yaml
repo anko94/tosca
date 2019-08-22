@@ -1,0 +1,31 @@
+{
+  "server2": {
+    "ubuntu": {
+      "image": "mongo-single-cluster:master",
+      "container_name": "mongo",
+      "name": "mongo1",
+      "exposed_port": "27017",
+      "repository": "artifactorycn.netcracker.com:17035"
+    },
+    "service": {
+      "name": "mongo_service2"
+    }
+  },
+  "network12": {
+    "namespace": {
+      "name": "my_namespace"
+    }
+  },
+  "server1": {
+    "ubuntu": {
+      "image": "mongo-single-cluster:master",
+      "container_name": "mongo",
+      "name": "mongo2",
+      "exposed_port": "27017",
+      "repository": "artifactorycn.netcracker.com:17035"
+    },
+    "service": {
+      "name": "mongo_service1"
+    }
+  }
+}

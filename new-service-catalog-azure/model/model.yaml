@@ -1,0 +1,29 @@
+type: object
+content:
+- type: object
+  name: vl12
+  content:
+  - type: string
+    name: name
+  - type: string
+    name: cidr
+  - type: string
+    name: gateway
+- type: object
+  name: ubuntu1
+  content:
+  - type: string
+    name: name
+  - type: string
+    name: cidr
+  - type: string
+    name: gateway
+- type: object
+  name: ubuntu2
+  content:
+  - type: string
+    name: name
+  - type: string
+    name: cidr
+  - type: string
+    name: gateway
